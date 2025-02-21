@@ -26,6 +26,11 @@ export default defineNuxtConfig({
       scrollBehaviorType: "smooth",
     },
   },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
+    },
+  },
   tailwindcss: {
     config: {
       plugins: [require("@tailwindcss/typography")],

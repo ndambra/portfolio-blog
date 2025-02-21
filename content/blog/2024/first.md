@@ -56,4 +56,4 @@ Todo list:
 </html>
 ```
 
-[Go to the second article](/blog/second)
+[Go to the second article](/blog/2024/vue-intro)

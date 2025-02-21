@@ -7,7 +7,7 @@
       @click="toggleMode"
       @mouseenter="showNextModeLabel = true"
       @mouseleave="showNextModeLabel = false"
-      class="bg-yellow-300 p-3 rounded-[50%]"
+      class="bg-yellow-300 p-9 md:p-3 rounded-[50%]"
       :class="{ darkToggle: !isDark }"
     ></button>
   </div>
@@ -16,7 +16,7 @@
 <script setup>
 const colorMode = useColorMode();
 const showNextModeLabel = ref(false);
-const isDark = ref(false);
+const isDark = ref(true);
 
 const modes = ["light", "dark"];
 
